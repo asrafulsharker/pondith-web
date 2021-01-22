@@ -5,8 +5,22 @@ import homeImage from '../images/home-image.png';
 import learn from '../images/learn.png';
 import get from '../images/get.png';
 import grow from '../images/grow.png';
+import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 import './home.css';
-function home() {
+function Home() {
+
+    const [anchorEl, setAnchorEl] = React.useState(null);
+
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+      };
+    
+      const handleClose = () => {
+        setAnchorEl(null);
+      };
+
     return (
         <div className="home">
         <div className="container ">
@@ -46,7 +60,19 @@ learn what they are looking for.</h6>
                 <div  className="search-home">
                     <img className="search-icon" src={search}/>
                     <input className="search-input" type="text" placeholder="What are you looking for?"/>
-                    <img className="thrredot-icon" src={three_dot}/>
+                    <img onClick={handleClick}  className="thrredot-icon" src={three_dot}/>
+                    <Menu
+        id="simple-menu"
+        anchorEl={anchorEl}
+        keepMounted
+        open={Boolean(anchorEl)}
+        onClose={handleClose}
+      >
+        <MenuItem onClick={handleClose}>Bookmarks</MenuItem>
+        <MenuItem onClick={handleClose}>Purchased history</MenuItem>
+        <MenuItem onClick={handleClose}>Recent search</MenuItem>
+        <MenuItem onClick={handleClose}>Mostly asked question</MenuItem>
+      </Menu>
                </div>
                <div className="homeImage">
                    <img className="home-image" src={homeImage}/>
@@ -58,4 +84,4 @@ learn what they are looking for.</h6>
     )
 }
 
-export default home;
+export default Home;
