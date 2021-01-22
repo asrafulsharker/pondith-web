@@ -12,7 +12,7 @@ class BootstrapNavbar extends React.Component{
     render(){
         return(
             <>
-<div className="container">
+<div className="container nav-top">
 <Navbar  expand="lg">
   <Navbar.Brand href="#home"><img className="logo" src={logo}></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,7 +30,7 @@ class BootstrapNavbar extends React.Component{
         <NavDropdown.Item href="#action/3.2">
         <div style={{borderBottom:"2px solid #B8AAAA"}} className="row">
                 <div className="m-auto"><img style={{width:"40px"}} src={software}></img></div>
-                <div className=""><p>Design & Multimedia</p> <p style={{fontSize:"7px"}}>Pondith is an online platform where you can 
+                <div className=""><p>Software Development</p> <p style={{fontSize:"7px"}}>Pondith is an online platform where you can 
                 take every kind.</p></div>
                 <div className="m-auto"><img  style={{width:"50px",borderRadius:"50%",background:"#FF4E23",height:"25px",width:"25px"}} src={arrow2}></img></div>
             </div>
@@ -38,7 +38,7 @@ class BootstrapNavbar extends React.Component{
         <NavDropdown.Item href="#action/3.3">
         <div style={{borderBottom:"2px solid #B8AAAA"}} className="row">
                 <div className="m-auto"><img style={{width:"40px"}} src={language}></img></div>
-                <div className=""><p>Design & Multimedia</p> <p style={{fontSize:"7px"}}>Pondith is an online platform where you can 
+                <div className=""><p>Language & Linguistics</p> <p style={{fontSize:"7px"}}>Pondith is an online platform where you can 
                 take every kind.</p></div>
                 <div className="m-auto"><img  style={{width:"50px",borderRadius:"50%",background:"#FF4E23",height:"25px",width:"25px"}} src={arrow2}></img></div>
             </div>
@@ -47,7 +47,7 @@ class BootstrapNavbar extends React.Component{
         <NavDropdown.Item href="#action/3.4">
             <div style={{borderBottom:"2px solid #B8AAAA"}} className="row">
                 <div className="m-auto"><img style={{width:"40px"}} src={research}></img></div>
-                <div className=""><p>Design & Multimedia</p> <p style={{fontSize:"7px"}}>Pondith is an online platform where you can 
+                <div className=""><p>Research & Journal</p> <p style={{fontSize:"7px"}}>Pondith is an online platform where you can 
                 take every kind.</p></div>
                 <div className="m-auto"><img  style={{width:"50px",borderRadius:"50%",background:"#FF4E23",height:"25px",width:"25px"}} src={arrow2}></img></div>
             </div>

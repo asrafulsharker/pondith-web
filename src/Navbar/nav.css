@@ -1,6 +1,6 @@
 .logo{
     width: 100px;
-height: 60px;
+height: 40px;
 left: 39px;
 top: -2px;
 }
@@ -8,6 +8,9 @@ top: -2px;
 .nav-text{
     color:red !important;
    
+}
+.nav-top{
+  
 }
 
 .nav-btn{
@@ -23,7 +26,7 @@ background:white;
 .dropdown-menu{
     width:300px !important;
     margin:auto auto !important;
-    border-radius: 8% !important;
+    border-radius: 5% !important;
 }
 .dropdown-item:hover{
     background-color: white !important;
