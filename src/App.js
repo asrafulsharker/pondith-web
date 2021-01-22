@@ -1,12 +1,21 @@
 
 import './App.css';
+import {Switch , Route} from "react-router-dom";
+import Home from "./Banner/home";
+import Nav from './Navbar/Nav';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  return (
-    <div className="App">
+  return(
+<>
+<Nav/>
+<Switch>
+  <Route path="/" exact component={Home}/>
+</Switch>
+</>
+  )
 
-    </div>
-  );
+  
 }
 
 export default App;
