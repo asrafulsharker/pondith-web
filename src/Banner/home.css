@@ -47,7 +47,7 @@ color: #fff;
     border: 2.5px solid #FF4E23;
     color: #fff;
     margin-left: 3%;
-
+    width: 140px;
 }
 .read-btn{
     background: #2F2C2C;
@@ -55,6 +55,7 @@ color: #fff;
     border: 2.5px solid #FF4E23;
     color: #fff;
     margin-left: 3%;
+    width: 140px;
 }
 .watch-btn:hover{
     background: #FF4E23;
