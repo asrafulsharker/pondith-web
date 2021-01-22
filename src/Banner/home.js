@@ -28,14 +28,14 @@ learn what they are looking for.</h6>
                         </div>
                         <div className="learn">
                             <img className="learn-img " src={get}/>
-                            <p>Learn by watching</p>
+                            <p>Get A Community</p>
                             <h6>We offer free and premium videos
                             that help learners that help them to
                             learn what they are looking for.</h6>
                         </div>
                         <div className="learn">
                             <img className="learn-img " src={grow}/>
-                            <p>Learn by watching</p>
+                            <p>Grow Your Skill</p>
                             <h6>We offer free and premium videos
                             that help learners that help them to
                             learn what they are looking for.</h6>
