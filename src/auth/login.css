@@ -23,5 +23,86 @@
     color:white !important;
 }
 .login-search-input{
-    height:55px
+    height:55px;
+}
+.login-box{
+    border: 0.9px solid #5E4545;
+    box-sizing: border-box;
+    border-radius: 7px;
+    cursor: pointer;
+    height:50px;
+    margin-top: 8px;
+}
+.login-box-text{
+    margin:auto auto ;
+    margin-left:40px;
+}
+.login-box-icon{
+    width: 50px;
+    padding:8px;
+    margin-left: 20px;
+}
+.left-box-login{
+    padding-top: 100px;
+}
+.line1{
+    width: 150px;
+    height: 2.5px;
+   
+}
+.line-1-div{
+    margin-top: 8px;
+}
+.login-box-input{
+    border: 0.9px solid #5E4545;
+    box-sizing: border-box;
+    border-radius: 7px;
+    cursor: pointer;
+    height:50px;
+    margin-top: 8px;
+    padding:8px;
+
+}
+.checkmark {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    color: red;
+    margin-top: 8px;
+    margin-left: 40px
+  }
+  .checkbox-text{
+      font-size:15px;
+      margin:auto auto;
+      margin-left: 25px !important;
+      
+  }
+  .btn-submit{
+    background-color: #FF4E23;
+    color:white;
+    border:none;
+    border-radius: 3px;
+  }
+.forgot{
+    font-size:15px;
+    margin-top: 8px;
+    color:#FF4E23 !important;
+}
+.signup-dont{
+    color:#FF4E23 !important;
+    text-decoration: none;
+}
+.dont{
+    text-align:center;
+}
+
+.login-img{
+   
+    width:100%;
+}
+.login-second-div{
+    width: 400px;
+    margin:auto auto;
+    padding:5%;
+    padding-top: 100px;
 }
