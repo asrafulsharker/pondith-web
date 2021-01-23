@@ -106,3 +106,50 @@
     padding:5%;
     padding-top: 100px;
 }
+
+
+/* register part */
+
+
+.left-sm-box{
+    border: 0.5px solid #5E4545;
+box-sizing: border-box;
+border-radius: 8px;
+width: 80px;
+height: 90px;
+text-align: center;
+margin-left: 9px;
+}
+.left-img{
+    width: 40px;
+    /* margin-left: 30px ; */
+    margin-top: 10px;
+}
+.left-img-text{
+    font-size:10px;
+    font-weight:700;
+}
+.left-top-text{ 
+font-family: Gotham;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6363;
+padding-top: 60px;
+padding-left: 2%;
+}
+
+.reg-box-input{
+    background-color:rgba(242, 242, 239, 0.5);
+    border-radius: 2px;
+}
+
+.reg-right-img{
+   width:85%;
+   padding:30px;
+   padding-top: 70px;
+}
