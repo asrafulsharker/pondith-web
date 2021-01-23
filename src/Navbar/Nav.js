@@ -6,6 +6,7 @@ import software from '../images/software.png';
 import language from '../images/language.png';
 import research from '../images/research.png';
 import design from '../images/design.png';
+import {Link} from 'react-router-dom';
 import './nav.css';
 class BootstrapNavbar extends React.Component{
 
@@ -68,7 +69,7 @@ from our experts.</p>
       </NavDropdown>
       <Nav.Link href="#link" style={{color:" #7A7777",marginRight:"5%",padding:"5px"}}>Skills</Nav.Link>
     </Nav>
-<button className="nav-btn">Start Learning</button>
+<button className="nav-btn"><Link className="nav-a" to="/register">Start Learning</Link></button>
   </Navbar.Collapse>
 </Navbar>
 </div>

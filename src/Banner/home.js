@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../Navbar/Nav';
 import search from '../images/search.png';
 import three_dot from '../images/three dot.png';
 import homeImage from '../images/home-image.png';
@@ -22,6 +23,8 @@ function Home() {
       };
 
     return (
+        <>
+       <Nav/>
         <div className="home">
         <div className="container ">
             <div className="row">
@@ -81,6 +84,7 @@ learn what they are looking for.</h6>
             </div>
         </div>
         </div>
+        </>
     )
 }
 

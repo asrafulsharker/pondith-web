@@ -1,0 +1,27 @@
+.login-nav{
+    background-color:rgba(39, 37, 37, 1);
+
+}
+
+.search-nav{
+    width:400px !important;
+
+}
+.login-nav-btn{
+    background-color: rgba(39, 37, 37, 1);
+    border:none !important;
+    ;
+}
+.login-nav-btn:active{
+    background-color:black;
+    background-color:#FF4E23;
+}
+.login-nav-btn:focus {
+    background-color: #FF4E23;
+  }
+.login-nav-a{
+    color:white !important;
+}
+.login-search-input{
+    height:55px
+}

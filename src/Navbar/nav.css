@@ -21,7 +21,13 @@ font-style: normal;
 font-weight: bold;
 padding:5px 20px;
 background:white;
+
 }
+.nav-a{
+    color:black !important;
+    text-decoration:none !important;
+}
+
 
 .dropdown-menu{
     width:300px !important;
