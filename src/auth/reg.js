@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
+import fire from '../fire.js'
 import Login_nav from './login-nav';
 import Twitter from '../images/twitter.png';
 import facebook from '../images/facebook.png';
@@ -7,7 +8,45 @@ import line1 from '../images/Line1.png';
 import Line2 from '../images/Line2.png';
 import {Link} from 'react-router-dom';
 import reg_img from '../images/reg-img.png';
-function reg() {
+function Reg() {
+
+
+    const [user, setUser] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [emailError, setEmailError] = useState('');
+    const [passwordError, setPasswordError] = useState('');
+    const [hasAccount, setHasAccount] = useState('');
+
+    const clearInputs = ()=>{
+        setEmail('');
+        setPassword('');
+    }
+    const clearErrors =()=>{
+        setEmailError('');
+        setPasswordError('');
+    }
+
+
+    const handleSignup =()=>{
+        clearErrors();
+        fire
+        .auth()
+        .createUserWithEmailAndPassword(email, password)
+        .catch((err)=>{
+            switch (err.code) {
+                case "auth/email-already-in-use":
+                case "auth/invalid-email":
+                    setEmailError(err.massage);
+                    break;
+                case "auth/week-password":
+                    setPasswordError(err.massage);
+                    break;            
+            }
+        });
+    }
+
+
     return (
 
         <>
@@ -44,18 +83,22 @@ function reg() {
                         <input  className=" login-box login-box-input reg-box-input" style={{width:"100%"}}  type="text" placeholder="username"/>
                     </div>
                     <div className="row ">
-                        <input  className=" login-box login-box-input reg-box-input" style={{width:"100%"}}  type="email" placeholder="Email"/>
+                        <input  className=" login-box login-box-input reg-box-input" autoFocus style={{width:"100%"}} value={email} onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="Email"/>
                     </div>
                     <div className="row ">
-                        <input  className=" login-box login-box-input reg-box-input" style={{width:"48%"}}  type="password" placeholder="Password"/>
+                        <input  className=" login-box login-box-input reg-box-input" required value={password} onChange={(e) => setPassword(e.target.value)} style={{width:"48%"}}  type="password" placeholder="Password"/>
                         <input  className=" login-box login-box-input reg-box-input ml-auto" style={{width:"48%"}}  type="password" placeholder="Confirm Password"/>
-                        <p style={{fontSize:"10px"}}>Password must be at least 8 characters long.</p>
-                        <button style={{width:"100%"}} className=" login-box btn-submit" type="submit">Sign In</button>
+                        <p style={{fontSize:"10px",color:"red"}}>{emailError} {passwordError}</p>
+                     
+                            <>
+                            <button style={{width:"100%"}} className=" login-box btn-submit" onClick={handleSignup} type="submit">Sign Up</button>
+                            </>
+         
                         <p style={{fontSize:"10px",padding:"5px",paddingTop:"9px",textAlign:"center"}}>By signing up you agree to Pondith - Online Learners’ Terms of Service and Privacy Policy.
                         This page is protected by reCAPTCHA and is subject to Google's Terms of Service and Privacy Policy.</p>
                         
                     </div>
-                    <p style={{textAlign:"center"}} className="dont ">Don’t have an Account? <Link className="signup-dont" to="/">Sign Up</Link> </p>
+                    <p style={{textAlign:"center"}} className="dont ">Already have an Account? <Link className="signup-dont" to="/login">Sign In</Link> </p>
                     
                 </div>
                 
@@ -74,4 +117,4 @@ function reg() {
     )
 }
 
-export default reg;
+export default Reg;
