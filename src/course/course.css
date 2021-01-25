@@ -14,13 +14,13 @@
 box-shadow: 0px 4px 4px rgba(111, 105, 105, 0.25);
 border-radius: 7px;
 color: #EEE8E8;
-height:145px;
+
 margin-top: 20px;
 }
 
 .left-course-sm-row{
     /* margin: 13%; */
-    padding:8%;
+    padding:4%;
     margin:5px;
     cursor: pointer;
     color:white;
@@ -41,4 +41,25 @@ margin-top: 20px;
 .left-course-sm-row:active{
     border-left: 2px solid red;
     background-color:#524C4C;
+}
+
+
+.progress-btn{
+    width:80px;
+   padding:5px 10px;
+   background: #FF4E23;
+   margin:38% !important;
+   margin-bottom:20px;
+   color:white;
+   text-decoration: none;
+
+}
+
+.featured-line{
+    height:7px;
+    width:100px
+}
+.hr{
+    height:7px;
+    margin-top: -0.6rem;
 }

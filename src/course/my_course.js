@@ -1,6 +1,13 @@
 import React from 'react'
 import Course_nav from './course_nav';
 import progress from '../images/progress.png'
+import more from '../images/progress.png'
+import skill from '../images/skill.png'
+import study from '../images/study.png'
+import audiobook from '../images/audiobook.png'
+import blog from '../images/blog.png'
+import winning from '../images/winning.png'
+import line2 from '../images/Line2.png'
 function course_home() {
     return (
         <div>
@@ -19,7 +26,8 @@ function course_home() {
                 </div>
                 <div className="row">
                     
-                    <div  className="col-md-2  ">
+                    <div  className="col-md-3  ">
+
                         <div className="left-sm-box-course">
                         <a className="row-h" href="#" style={{textDecoration:"none"}}>
                         <div className="row left-course-sm-row ">
@@ -35,6 +43,46 @@ function course_home() {
                         </a>
                         </div>
 
+                        <div className="left-sm-box-course">
+                        <a className="row-h" href="#" style={{textDecoration:"none"}}>
+                        <div className="row left-course-sm-row ">
+                                 <img className="" style={{height:"25px" ,marginLeft:"8%"}} src={skill}/>
+                                  <p style={{marginLeft:"5%"}}>Skill</p>
+                        </div>
+                        </a>
+                        <a className="row-h" href="#" style={{textDecoration:"none"}}>
+                        <div className="row left-course-sm-row ">
+                                <img className="" style={{height:"25px" ,marginLeft:"8%"}} src={study}/>
+                                 <p style={{marginLeft:"5%"}}>Study</p>
+                           </div>
+                        </a>
+                        <a className="row-h" href="#" style={{textDecoration:"none"}}>
+                        <div className="row left-course-sm-row ">
+                                <img className="" style={{height:"25px" ,marginLeft:"8%"}} src={winning}/>
+                                 <p style={{marginLeft:"5%"}}>Winning</p>
+                           </div>
+                        </a>
+                        <a className="row-h" href="#" style={{textDecoration:"none"}}>
+                        <div className="row left-course-sm-row ">
+                                <img className="" style={{height:"25px" ,marginLeft:"8%"}} src={audiobook}/>
+                                 <p style={{marginLeft:"5%"}}>Audiobook</p>
+                           </div>
+                        </a>
+                        <a className="row-h" href="#" style={{textDecoration:"none",paddingBottom:"20%"}}>
+                        <div className="row left-course-sm-row ">
+                                <img className="" style={{height:"25px" ,marginLeft:"8%"}} src={blog}/>
+                                 <p style={{marginLeft:"5%"}}>Blog</p>
+                           </div>
+                        </a>
+
+                            <a style={{textDecoration:"none"}} className="progress-btn" href="#">Check</a>
+
+                        </div>
+                    </div>
+                    <div style={{padding:"3%"}} className="col-md-9">
+                        <p style={{paddingTop:"15px",color:"rgba(128, 118, 118, 1)"}}>Featured <strong style={{color:"#FF4E23"}}>Course</strong></p>
+                        <img className="featured-line"  src={line2}/>
+                        <hr className="hr"/>
                     </div>
                     
                     </div>
