@@ -10,6 +10,7 @@ import blog from '../images/blog.png'
 import winning from '../images/winning.png'
 import line2 from '../images/Line2.png';
 import ilastator from '../images/ilastator.jpg';
+import{ Card,Button} from 'react-bootstrap'
 function course_home() {
     return (
         <div>
@@ -88,9 +89,108 @@ function course_home() {
                     
 
                     <div className="row">
-                        <div className="col-md-2">
+
+
+{/* 
+
+                    <div class="card">
+    <div class="image">
+      <img src="http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s400/Cristina-Otero-2.jpg"/>
+    </div>
+    <div class="details">
+      <div class="center">
+        <h1>Someone famous<br/><span>team leader</span></h1>
+        <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+ */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        {/* <div className="card">
+                            <div className="card-image">
+                                <img  src={ilastator}/>
+                            </div>
+                            <ul className="social-icons">
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                            </ul>
+                            <div className="details">
+                                <h2>Nirob <span>Web developer</span></h2>
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <div className="card-image">
+                                <img  src={ilastator}/>
+                            </div>
+                            <ul className="social-icons">
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                            </ul>
+                            <div className="details">
+                                <h2>Nirob <span>Web developer</span></h2>
+                            </div>
+                        </div> */}
+
+                        <div className="card">
+                            <div className="card-image">
+                                <img src={ilastator}/>
+                            </div>
+                            <ul className="social-icons">
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                            </ul>
+                            <div className="details">
+                                <h2>Nirob <span>Web developer</span></h2>
+                            </div>
+                        </div>
+
+                        {/* <div className="card">
+                            <div className="card-image">
+                                <img src={ilastator}/>
+                            </div>
+                            <ul className="social-icons">
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                                <li><a href="#"><AiFillStar/></a></li>
+                            </ul>
+                            <div className="details">
+                                <h2>Nirob <span>Web developer</span></h2>
+                            </div>
+                        </div> */}
+                        <div className="card">
                             
-                            <div class="card middle">
+                            </div>
+                        {/* <div className="col-md-2">
+                            
+                            {/* <div class="card middle">
                                 <div className="front">
                                     <img src={ilastator}/>
                                 </div>
@@ -103,8 +203,35 @@ function course_home() {
                                         </div>
                                     </div>
                                 </div>
+                            </div> */}
+                        {/* </div> */}
+                        {/* <div className="col-md-2 ">
+                            
+                        <Card style={{ width: '18rem' }}>
+                        <div class="card middle">
+                                <div className="front">
+                                    <img src={ilastator}/>
+                                </div>
+                                <div className="back">
+                                    <div className="back-content middle">
+                                        <h2>Dark Code</h2>
+                                        <span>practice</span>
+                                        <div className="sm">
+                                            <a href="#"><AiFillStar/></a>
+                                        </div>
+                                    </div> 
+                                </div>
                             </div>
-                        </div>
+  <Card.Body>
+    <Card.Title>Card Title</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
+                        </div> */}
                     </div>
                     </div>
                     
