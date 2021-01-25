@@ -1,5 +1,6 @@
 import React from 'react'
 import Course_nav from './course_nav';
+import { AiFillStar } from 'react-icons/ai';
 import progress from '../images/progress.png'
 import more from '../images/progress.png'
 import skill from '../images/skill.png'
@@ -7,7 +8,8 @@ import study from '../images/study.png'
 import audiobook from '../images/audiobook.png'
 import blog from '../images/blog.png'
 import winning from '../images/winning.png'
-import line2 from '../images/Line2.png'
+import line2 from '../images/Line2.png';
+import ilastator from '../images/ilastator.jpg';
 function course_home() {
     return (
         <div>
@@ -83,6 +85,27 @@ function course_home() {
                         <p style={{paddingTop:"15px",color:"rgba(128, 118, 118, 1)"}}>Featured <strong style={{color:"#FF4E23"}}>Course</strong></p>
                         <img className="featured-line"  src={line2}/>
                         <hr className="hr"/>
+                    
+
+                    <div className="row">
+                        <div className="col-md-2">
+                            
+                            <div class="card middle">
+                                <div className="front">
+                                    <img src={ilastator}/>
+                                </div>
+                                <div className="back">
+                                    <div className="back-content middle">
+                                        <h2>Dark Code</h2>
+                                        <span>practice</span>
+                                        <div className="sm">
+                                            <a href="#"><AiFillStar/></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                     
                     </div>
