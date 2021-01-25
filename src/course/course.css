@@ -1,0 +1,10 @@
+
+.nav-link{
+    color: rgba(199, 187, 187, 1)!important;
+}
+.nav-link:active{
+    color:white !important
+}
+.nav-link:focus{
+    color:white !important
+}

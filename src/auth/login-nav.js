@@ -55,7 +55,7 @@ function Login_nav() {
 
       </Nav.Link>
     </Nav>
-<button className="nav-btn login-nav-btn"><Link className="nav-a login-nav-a" to="/register">Go Premium</Link></button>
+<button className="nav-btn login-nav-btn"><Link className="nav-a login-nav-a" to="/course-home">Go Premium</Link></button>
 <button className="nav-btn login-nav-btn"><Link className="nav-a login-nav-a" to="/login">Sign In</Link></button>
 <button className="nav-btn login-nav-btn"><Link className="nav-a login-nav-a" to="/register">Sign Up</Link></button>
   </Navbar.Collapse>
