@@ -8,3 +8,37 @@
 .nav-link:focus{
     color:white !important
 }
+
+.left-sm-box-course{
+    background: #272626;
+box-shadow: 0px 4px 4px rgba(111, 105, 105, 0.25);
+border-radius: 7px;
+color: #EEE8E8;
+height:145px;
+margin-top: 20px;
+}
+
+.left-course-sm-row{
+    /* margin: 13%; */
+    padding:8%;
+    margin:5px;
+    cursor: pointer;
+    color:white;
+    text-decoration: none !important;
+    transition: .5s;
+}
+.left-course-sm-row:hover{
+    border-left: 2px solid red;
+    background-color:#524C4C;
+    text-decoration: none;
+}
+.left-course-sm-row:focus{
+    border-left: 2px solid red;
+    background-color:#524C4C;
+
+}
+
+.left-course-sm-row:active{
+    border-left: 2px solid red;
+    background-color:#524C4C;
+}
