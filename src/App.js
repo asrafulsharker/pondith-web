@@ -6,7 +6,8 @@ import login from './auth/login'
 import reg from './auth/reg';
 import Course_home from './course/my_course';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import nirob from './course/card';
+import inistructor from './inistructor/ins'
 function App() {
 
   return(
@@ -16,6 +17,7 @@ function App() {
   <Route path="/login" exact component={login}/>
   <Route path="/register" exact component={reg}/>
   <Route path="/course-home" exact component={Course_home}/>
+  <Route path="/inistructor" exact component={inistructor}/>
 </Switch>
 </>
   )

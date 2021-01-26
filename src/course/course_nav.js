@@ -31,10 +31,11 @@ function BootstrapNavbar  (){
       };
         return(
             <>
+            
             <div className="login-nav">
 <div className="container nav-top ">
 <Navbar  expand="lg">
-  <Navbar.Brand href="#home"><img className="logo" src={logo}></img></Navbar.Brand>
+  <Navbar.Brand href="#home"><Link to="/"><img className="logo" src={logo}></img></Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="m-auto col-md-4">
@@ -112,6 +113,7 @@ from our experts.</p>
 </div>
   
             </div>
+          
           </>
         )  
     }

@@ -9,8 +9,9 @@ import audiobook from '../images/audiobook.png'
 import blog from '../images/blog.png'
 import winning from '../images/winning.png'
 import line2 from '../images/Line2.png';
-import ilastator from '../images/ilastator.jpg';
-import{ Card,Button} from 'react-bootstrap'
+import background from '../images/ilastator.jpg';
+import{ Card,Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 function course_home() {
     return (
         <div>
@@ -87,153 +88,135 @@ function course_home() {
                         <img className="featured-line"  src={line2}/>
                         <hr className="hr"/>
                     
+                       
+                        <div className="col-md-12">
+                        <div className="row">
+                            <div style={{background:"white",boxShadow: "0px -4px 4px rgba(0, 0, 0, 0.07), 0px 4px 4px rgba(0, 0, 0, 0.02)",marginTop:"20px"}} className="col-md-4">
+                                <img src={background} style={{width:"100%"}}/>
+                                <div className="row">
+                                    
+                                <div className="m-auto">
+                                    <p style={{fontSize:"12px",marginTop:"10px"}} className="col-md-10">
+                                    illustrator Crash Course 
+                                    <br/>
+                                    <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
+                                    <br/>
+                                    <br/>
+                                    <Link to="/inistructor"><span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span></Link>
+                                    </p>
+                                </div>
+                                <div className="m-auto">
+                                    <p style={{color:"rgba(253, 75, 20, 1)",fontWeight:"bold"}} className="m-auto" >22$ <br/> <br/><span style={{fontSize:"10px"}}>20+ Enrolled</span></p>
+                                </div>
+                                  </div>
 
-                    <div className="row">
-
-
-{/* 
-
-                    <div class="card">
-    <div class="image">
-      <img src="http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s400/Cristina-Otero-2.jpg"/>
-    </div>
-    <div class="details">
-      <div class="center">
-        <h1>Someone famous<br/><span>team leader</span></h1>
-        <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
- */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        {/* <div className="card">
-                            <div className="card-image">
-                                <img  src={ilastator}/>
                             </div>
-                            <ul className="social-icons">
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                            </ul>
-                            <div className="details">
-                                <h2>Nirob <span>Web developer</span></h2>
+
+                            <div style={{background:"white",boxShadow: "0px -4px 4px rgba(0, 0, 0, 0.07), 0px 4px 4px rgba(0, 0, 0, 0.02)" ,marginTop:"20px"}} className="col-md-4">
+                                <img src={background} style={{width:"100%"}}/>
+                                <div className="row">
+                                    
+                                <div className="m-auto">
+                                    <p style={{fontSize:"12px",marginTop:"10px"}} className="col-md-10">
+                                    illustrator Crash Course 
+                                    <br/>
+                                    <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
+                                    <br/>
+                                    <br/>
+                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    </p>
+                                </div>
+                                <div className="m-auto">
+                                    <p style={{color:"rgba(253, 75, 20, 1)",fontWeight:"bold"}} className="m-auto" >22$ <br/> <br/><span style={{fontSize:"10px"}}>20+ Enrolled</span></p>
+                                </div>
+                                  </div>
+
+                            </div>
+                            <div style={{background:"white",boxShadow: "0px -4px 4px rgba(0, 0, 0, 0.07), 0px 4px 4px rgba(0, 0, 0, 0.02)" ,marginTop:"20px"}} className="col-md-4">
+                                <img src={background} style={{width:"100%"}}/>
+                                <div className="row">
+                                    
+                                <div className="m-auto">
+                                    <p style={{fontSize:"12px",marginTop:"10px"}} className="col-md-10">
+                                    illustrator Crash Course 
+                                    <br/>
+                                    <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
+                                    <br/>
+                                    <br/>
+                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    </p>
+                                </div>
+                                <div className="m-auto">
+                                    <p style={{color:"rgba(253, 75, 20, 1)",fontWeight:"bold"}} className="m-auto" >22$ <br/> <br/><span style={{fontSize:"10px"}}>20+ Enrolled</span></p>
+                                </div>
+                                  </div>
+
+                            </div>
+
+                            <div style={{background:"white",boxShadow: "0px -4px 4px rgba(0, 0, 0, 0.07), 0px 4px 4px rgba(0, 0, 0, 0.02)" ,marginTop:"20px"}} className="col-md-4">
+                                <img src={background} style={{width:"100%"}}/>
+                                <div className="row">
+                                    
+                                <div className="m-auto">
+                                    <p style={{fontSize:"12px",marginTop:"10px"}} className="col-md-10">
+                                    illustrator Crash Course 
+                                    <br/>
+                                    <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
+                                    <br/>
+                                    <br/>
+                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    </p>
+                                </div>
+                                <div className="m-auto">
+                                    <p style={{color:"rgba(253, 75, 20, 1)",fontWeight:"bold"}} className="m-auto" >22$ <br/> <br/><span style={{fontSize:"10px"}}>20+ Enrolled</span></p>
+                                </div>
+                                  </div>
+
+                            </div>
+                            <div style={{background:"white",boxShadow: "0px -4px 4px rgba(0, 0, 0, 0.07), 0px 4px 4px rgba(0, 0, 0, 0.02)",marginTop:"20px"}} className="col-md-4">
+                                <img src={background} style={{width:"100%"}}/>
+                                <div className="row">
+                                    
+                                <div className="m-auto">
+                                    <p style={{fontSize:"12px",marginTop:"10px"}} className="col-md-10">
+                                    illustrator Crash Course 
+                                    <br/>
+                                    <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
+                                    <br/>
+                                    <br/>
+                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    </p>
+                                </div>
+                                <div className="m-auto">
+                                    <p style={{color:"rgba(253, 75, 20, 1)",fontWeight:"bold"}} className="m-auto" >22$ <br/> <br/><span style={{fontSize:"10px"}}>20+ Enrolled</span></p>
+                                </div>
+                                  </div>
+
+                            </div>
+                            <div style={{background:"white",boxShadow: "0px -4px 4px rgba(0, 0, 0, 0.07), 0px 4px 4px rgba(0, 0, 0, 0.02)",marginTop:"20px"}} className="col-md-4">
+                                <img src={background} style={{width:"100%"}}/>
+                                <div className="row">
+                                    
+                                <div className="m-auto">
+                                    <p style={{fontSize:"12px",marginTop:"10px"}} className="col-md-10">
+                                    illustrator Crash Course 
+                                    <br/>
+                                    <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
+                                    <br/>
+                                    <br/>
+                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    </p>
+                                </div>
+                                <div className="m-auto">
+                                    <p style={{color:"rgba(253, 75, 20, 1)",fontWeight:"bold"}} className="m-auto" >22$ <br/> <br/><span style={{fontSize:"10px"}}>20+ Enrolled</span></p>
+                                </div>
+                                  </div>
+
                             </div>
                         </div>
-
-                        <div className="card">
-                            <div className="card-image">
-                                <img  src={ilastator}/>
-                            </div>
-                            <ul className="social-icons">
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                            </ul>
-                            <div className="details">
-                                <h2>Nirob <span>Web developer</span></h2>
-                            </div>
-                        </div> */}
-
-                        <div className="card">
-                            <div className="card-image">
-                                <img src={ilastator}/>
-                            </div>
-                            <ul className="social-icons">
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                            </ul>
-                            <div className="details">
-                                <h2>Nirob <span>Web developer</span></h2>
-                            </div>
                         </div>
-
-                        {/* <div className="card">
-                            <div className="card-image">
-                                <img src={ilastator}/>
-                            </div>
-                            <ul className="social-icons">
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                                <li><a href="#"><AiFillStar/></a></li>
-                            </ul>
-                            <div className="details">
-                                <h2>Nirob <span>Web developer</span></h2>
-                            </div>
-                        </div> */}
-                        <div className="card">
-                            
-                            </div>
-                        {/* <div className="col-md-2">
-                            
-                            {/* <div class="card middle">
-                                <div className="front">
-                                    <img src={ilastator}/>
-                                </div>
-                                <div className="back">
-                                    <div className="back-content middle">
-                                        <h2>Dark Code</h2>
-                                        <span>practice</span>
-                                        <div className="sm">
-                                            <a href="#"><AiFillStar/></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
-                        {/* </div> */}
-                        {/* <div className="col-md-2 ">
-                            
-                        <Card style={{ width: '18rem' }}>
-                        <div class="card middle">
-                                <div className="front">
-                                    <img src={ilastator}/>
-                                </div>
-                                <div className="back">
-                                    <div className="back-content middle">
-                                        <h2>Dark Code</h2>
-                                        <span>practice</span>
-                                        <div className="sm">
-                                            <a href="#"><AiFillStar/></a>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-                        </div> */}
-                    </div>
-                    </div>
+                        </div>
+                    
                     
                     </div>
 
