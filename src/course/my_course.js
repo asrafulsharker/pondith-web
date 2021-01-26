@@ -102,7 +102,7 @@ function course_home() {
                                     <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
                                     <br/>
                                     <br/>
-                                    <Link to="/inistructor"><span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span></Link>
+                                    <Link to="/inistructor"><span style={{background:"#FF4E23",padding:"5px 18px",color:"white",cursor:"pointer"}} className="button">Buy</span></Link>
                                     </p>
                                 </div>
                                 <div className="m-auto">
@@ -123,7 +123,7 @@ function course_home() {
                                     <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
                                     <br/>
                                     <br/>
-                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    <span style={{background:"#FF4E23",padding:"5px 18px",color:"white",cursor:"pointer"}} className="button">Buy</span>
                                     </p>
                                 </div>
                                 <div className="m-auto">
@@ -143,7 +143,7 @@ function course_home() {
                                     <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
                                     <br/>
                                     <br/>
-                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    <span style={{background:"#FF4E23",padding:"5px 18px",color:"white",cursor:"pointer"}} className="button">Buy</span>
                                     </p>
                                 </div>
                                 <div className="m-auto">
@@ -164,7 +164,7 @@ function course_home() {
                                     <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
                                     <br/>
                                     <br/>
-                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    <span style={{background:"#FF4E23",padding:"5px 18px",color:"white",cursor:"pointer"}} className="button">Buy</span>
                                     </p>
                                 </div>
                                 <div className="m-auto">
@@ -184,7 +184,7 @@ function course_home() {
                                     <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
                                     <br/>
                                     <br/>
-                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    <span style={{background:"#FF4E23",padding:"5px 18px",color:"white",cursor:"pointer"}} className="button">Buy</span>
                                     </p>
                                 </div>
                                 <div className="m-auto">
@@ -204,7 +204,7 @@ function course_home() {
                                     <span style={{color:"rgba(253, 75, 20, 1)"}}>Sabbir Ahmed</span>
                                     <br/>
                                     <br/>
-                                    <span style={{background:"red",padding:"5px 8px",color:"white",cursor:"pointer"}} className="button">Buy</span>
+                                    <span style={{background:"#FF4E23",padding:"5px 18px",color:"white",cursor:"pointer"}} className="button">Buy</span>
                                     </p>
                                 </div>
                                 <div className="m-auto">
