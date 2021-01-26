@@ -91,7 +91,7 @@ function Reg() {
                         <p style={{fontSize:"10px",color:"red"}}>{emailError} {passwordError}</p>
                      
                             <>
-                            <button style={{width:"100%"}} className=" login-box btn-submit" onClick={handleSignup} type="submit">Sign Up</button>
+                            <button style={{width:"100%"}} className=" login-box btn-submit" onClick={handleSignup} type="submit"><Link to="/course-home">Sign Up</Link></button>
                             </>
          
                         <p style={{fontSize:"10px",padding:"5px",paddingTop:"9px",textAlign:"center"}}>By signing up you agree to Pondith - Online Learners’ Terms of Service and Privacy Policy.

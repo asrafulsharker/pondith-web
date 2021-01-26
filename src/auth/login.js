@@ -103,7 +103,7 @@ function Reg(props) {
                         <input className="checkmark" type="checkbox"/>
                         <p className="checkbox-text ">Keep me Sign In until I Sign out.</p>
                     </div>
-                    <button style={{width:"100%"}} className=" login-box btn-submit" onclick={handleLogin} type="submit">Sign In</button>
+                    <button style={{width:"100%"}} className=" login-box btn-submit" onclick={handleLogin} type="submit"><Link style={{textDecoration:"none",color:"white"}} to="/course-home">Sign In</Link></button>
                     <p className="forgot">Forgot Password?</p>
                     </form>
                     <p className="dont ">Don’t have an Account? <Link className="signup-dont" to="/register">Sign Up</Link> </p>
